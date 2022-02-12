@@ -10,7 +10,8 @@ http://127.0.0.1:8080/models/multitrack_chords/
 In my case, I run:
 
 ```
-http-server . 
+This has to be version 13 NOT 14
+./node_modules/http-server/bin/http-server . 
 ```
 in the top level directory which contains the models folder. 
 
