@@ -8,7 +8,7 @@ const mvae = require('@magenta/music/node/music_vae');
 const mm = require('@magenta/music/node/core')
 const tf = require('@tensorflow/tfjs')
 const fs = require('fs')
-const model = new mvae.MusicVAE('http://127.0.0.1:8080/models/multitrack_chords/');
+const model = new mvae.MusicVAE('http://127.0.0.1:8080/vae_models/multitrack_chords/');
 
 const STEPS_PER_QTR = 32 // higher means faster music
 // the chord sequence for the song
