@@ -153,6 +153,7 @@ cython_debug/
 
 dataset/
 models/
+diffSingerMYK/output/ckpt/
 
 
 # Logs
