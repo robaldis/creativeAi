@@ -12,7 +12,7 @@ const model = new mvae.MusicVAE('http://127.0.0.1:8080/vae_models/multitrack_cho
 
 const STEPS_PER_QTR = 32 // higher means faster music
 // the chord sequence for the song
-let chords = ["C", "G", "E", "D", "C"];
+let chords = ["D", "C", "Bm", "G"];
 // this will eventually contain the parts of the song
 let song = [];
 

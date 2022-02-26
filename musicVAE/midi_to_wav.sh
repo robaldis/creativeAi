@@ -1,5 +1,7 @@
 echo "usage: . fluid.sh <midi filename>"
 
+fluidsynth -F $i.wav $i
+
 
 find songs | while IFS= read -r f; do
     echo "$d"

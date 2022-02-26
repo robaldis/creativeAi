@@ -25,9 +25,9 @@ def main():
     tuned = load_fine_tuned('./models/tuned/')
     print("---results---")
 
-    print(base("fuck im lonely ",
+    print(base("I messed up our relationship",
           max_length=30, num_return_sequences=5), "base model")
-    print(tuned("fuck im lonely ",
+    print(tuned("I messed up our relationship",
           max_length=30, num_return_sequences=5), "tuned model")
 
 
